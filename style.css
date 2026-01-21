@@ -116,3 +116,27 @@ body {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
+
+/* learning/outcome section */
+.sec-content {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.sec-content img {
+  height: 350px;
+  border-radius: 30px;
+
+  flex: 1;
+}
+
+.highlight {
+  color: blue;
+}
+
+.img-placement {
+  justify-content: center;
+}
