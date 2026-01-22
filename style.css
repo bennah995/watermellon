@@ -91,6 +91,8 @@ body {
 /* feature section */
 .features {
   background-color: rgb(255, 249, 240);
+  padding-bottom: 2rem;
+  margin: 0 auto;
 }
 
 .features h2 {
@@ -118,6 +120,10 @@ body {
 }
 
 /* learning/outcome section */
+.learn {
+  margin: 0 auto;
+}
+
 .sec-content {
   display: flex;
   gap: 4rem;
@@ -139,4 +145,180 @@ body {
 
 .img-placement {
   justify-content: center;
+}
+
+/* Achievements section */
+.achieve-content {
+  background-color: blue;
+  color: white;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.achieve-head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.achieve-head p {
+  color: rgb(212, 212, 212);
+}
+
+.achieve-cards article {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.achieve-cards article span {
+  margin-bottom: 1rem;
+}
+
+.achieve-cards article h3 {
+  margin-bottom: 1rem;
+}
+
+.achieve-cards article p {
+  margin-bottom: 1rem;
+}
+
+.card-head {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.achieve-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.achieve .container {
+  margin-bottom: 1rem;
+}
+
+.achieve-content {
+  padding: 2.5rem;
+}
+
+/* Booking section */
+.booking-content {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 2rem;
+}
+
+/* .booking-content h2{
+  margin-bottom: 1rem;
+} */
+
+.booking-content p{
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.booking-content a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 2rem 1rem;
+
+}
+
+.btn-call {
+  background-color: white;
+  color: blue !important;
+}
+
+.btn-visit:hover {
+  background-color: rgba(222, 222, 222, 0.636);
+}
+
+.booking-content #bottom-p {
+  padding: 2rem 0;
+  color: rgb(192, 192, 192);
+}
+
+/* Footer section */
+footer {
+  margin-top: 1rem;
+  background-color: rgb(25, 25, 25);
+  color: aliceblue;
+  text-align: center;
+}
+
+.footer-left {
+  padding: 1rem 0;
+}
+
+.footer-left h3 {
+  padding-bottom: 1rem;
+}
+
+.footer-right {
+  padding-bottom: 1rem;
+}
+
+.footer-left a {
+  text-decoration: none;  
+  color: aliceblue;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.bottom-section {
+  border-top: 1px solid white;
+  padding: 1rem;
+}
+
+
+
+/* mobile responsiveness styling */
+@media (max-width: 800px){
+  .sec-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image img {
+    width: auto;
+    border-radius: 30px;
+  }
+
+  .achieve-content {
+    margin: 0 auto;
+  }
+
+  .achieve-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image img, img {
+    width: 250px;
+  }
+
+  .booking-content {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
