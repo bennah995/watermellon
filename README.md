@@ -9,3 +9,8 @@ This landing page was created as a demonstration of my HTML and CSS skills.
 ![First section](images/section-1.png)
 ![Second section](images/section-2.png)
 ![Footer section](images/footer.png)
+
+
+
+Github Repo: https://github.com/bennah995/watermellon.git
+Gihub Live Link: https://bennah995.github.io/watermellon/
